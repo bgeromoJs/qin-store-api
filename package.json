@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
   },
   "repository": {
     "type": "git",
@@ -29,9 +30,9 @@
     "eslint-plugin-standard": "4.0.1",
     "git-commit-msg-linter": "^2.3.11",
     "husky": "4.0.6",
-    "jest": "^27.2.5",
+    "jest": "24.9.0",
     "lint-staged": "^11.2.0",
-    "ts-jest": "^27.0.5",
+    "ts-jest": "24.3.0",
     "typescript": "3.7.4"
   }
 }
