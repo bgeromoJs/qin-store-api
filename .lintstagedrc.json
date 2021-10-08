@@ -1,6 +1,5 @@
 {
   "*.ts": [
-    "eslint 'src/**' --fix",
-    "git add"
+    "./node_modules/eslint/bin/eslint.js --fix"
   ]
 }
